@@ -1,4 +1,4 @@
-package com.lucascoutinho.resteasyjackson;
+package com.lucascoutinho.rest.resteasyjackson;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

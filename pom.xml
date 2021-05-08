@@ -126,6 +126,20 @@
               </execution>
             </executions>
           </plugin>
+
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>1.6.0</version>
+            <configuration>
+              <executable>mvn</executable>
+              <arguments>
+                <argument>clean</argument>
+                <argument>compile</argument>
+                <argument>quarkus:dev</argument>
+              </arguments>
+            </configuration>
+          </plugin>
         </plugins>
       </build>
       <properties>

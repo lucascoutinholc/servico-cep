@@ -1,4 +1,4 @@
-package com.lucascoutinho.resteasyjackson;
+package com.lucascoutinho.rest.resteasyjackson;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
